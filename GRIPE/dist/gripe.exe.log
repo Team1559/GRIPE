@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "gripe.py", line 142, in <module>
+  File "gripe.py", line 30, in __init__
+  File "gripe.py", line 100, in addIcon
+  File "Tkinter.pyc", line 1693, in wm_iconbitmap
+_tkinter.TclError: bitmap "lib/gripe.ico" not defined
