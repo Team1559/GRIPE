@@ -10,12 +10,12 @@ data = target.read()
 
 stringlist = data.split("\n")
 
-hlow = stringlist[0]
-slow = stringlist[1]
-vlow = stringlist[2]
-hhigh = stringlist[3]
-shigh = stringlist[4]
-vhigh = stringlist[5]
+hhigh = stringlist[0]
+shigh = stringlist[1]
+vhigh = stringlist[2]
+hlow = stringlist[3]
+slow = stringlist[4]
+vlow = stringlist[5]
 brightness = stringlist[6]
 
 lowValues = np.array((hlow,slow,vlow))

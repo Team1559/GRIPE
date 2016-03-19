@@ -4,3 +4,10 @@ Traceback (most recent call last):
   File "gripe.py", line 100, in addIcon
   File "Tkinter.pyc", line 1693, in wm_iconbitmap
 _tkinter.TclError: bitmap "lib/gripe.ico" not defined
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "Tkinter.pyc", line 1536, in __call__
+  File "gripe.py", line 94, in <lambda>
+  File "gripe.py", line 128, in write
+  File "camerafeed.pyc", line 82, in writeFile
+IOError: [Errno 13] Permission denied: 'E:\\/config.gripe'
