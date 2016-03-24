@@ -11,7 +11,7 @@ class CameraFeed(object):
 
         #create the webcam
         global cam
-        cam = cv2.VideoCapture(0)
+        cam = cv2.VideoCapture(1)
         #cam.set(cv2.cv.CV_CAP_PROP_FRAME_WIDTH, 640)
         #cam.set(cv2.cv.CV_CAP_PROP_FRAME_HEIGHT, 480)
         cam.set(3, 640)
