@@ -11,3 +11,21 @@ Traceback (most recent call last):
   File "gripe.py", line 128, in write
   File "camerafeed.pyc", line 82, in writeFile
 IOError: [Errno 13] Permission denied: 'E:\\/config.gripe'
+Unhandled exception in thread started by <bound method CameraFeed.run of <camerafeed.CameraFeed object at 0x02A0FBB0>>
+Traceback (most recent call last):
+  File "camerafeed.pyc", line 32, in run
+NameError: global name 'brightness' is not defined
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "Tkinter.pyc", line 1536, in __call__
+  File "gripe.py", line 94, in <lambda>
+  File "gripe.py", line 128, in write
+  File "camerafeed.pyc", line 82, in writeFile
+IOError: [Errno 2] No such file or directory: 'Your File Path Here/config.gripe'
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "Tkinter.pyc", line 1536, in __call__
+  File "gripe.py", line 94, in <lambda>
+  File "gripe.py", line 128, in write
+  File "camerafeed.pyc", line 82, in writeFile
+IOError: [Errno 2] No such file or directory: 'E:\\/config.gripe'

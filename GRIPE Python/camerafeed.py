@@ -20,6 +20,7 @@ class CameraFeed(object):
         #put values in for original image
         self.putLowerRange(0,0,0,)
         self.putUpperRange(255,255,255)
+        self.putBrightness(0)
 
         #run it in a new thread
         thread.start_new_thread(self.run, ())
